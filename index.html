@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página institucional del Instituto Superior Tecnológico BRASIL: formación profesional y competencias tecnológicas.">
+  <title>Instituto Superior Tecnológico BRASIL</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a class="brand" href="#inicio" aria-label="Instituto Superior Tecnológico BRASIL, ir al inicio">
+        <!-- Logo creado en SVG (no es un logotipo oficial) -->
+        <svg class="brand-logo" viewBox="0 0 64 64" role="img" aria-label="Logo del Instituto: escudo azul con libro abierto y estrella">
+          <path d="M32 3 57 12v18c0 15-10 26-25 31C17 56 7 45 7 30V12z" fill="#0b2a5b"/>
+          <path d="M32 7 53 14.5V30c0 12.5-8.5 22-21 27C19.5 52 11 42.5 11 30V14.5z" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+          <path d="M32 24c-4-3-10-3.500-16-2v17c6-1.500 12-1 16 2 4-3 10-3.500 16-2V22c-6-1.500-12-1-16 2z" fill="#e8f6ff"/>
+          <path d="M32 24v17" stroke="#0b2a5b" stroke-width="2"/>
+          <path d="m32 9 2.2 4.600 5 .7-3.600 3.500.9 5L32 20.400 27.500 22.800l.9-5-3.600-3.500 5-.7z" fill="#4fc3f7"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">INSTITUTO SUPERIOR TECNOLÓGICO</span>
+          <span class="brand-big">BRASIL</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul id="menu-principal" class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== SECCIÓN PRINCIPAL (HERO) ===== -->
+    <section id="inicio" class="hero">
+      <div class="hero-inner">
+     <div class="hero-text">
+ <img src="img/2.jpg">
+          <h1>Instituto Superior Tecnológico BRASIL</h1>
+          <p class="hero-lead">Una institución orientada a la formación profesional, el desarrollo de competencias tecnológicas y la preparación para el mundo laboral.</p>
+          <a class="btn btn-light" href="#cursos">Conoce nuestros cursos</a>
+        </div>
+        <figure class="hero-figure">
+ <img src="img/6.jpg">
+          
+              <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#4fc3f7"/><stop offset="1" stop-color="#1565c0"/>
+              </linearGradient>
+            </defs>
+            <rect width="480" height="360" rx="24" fill="url(#fondo)"/>
+            <circle cx="400" cy="70" r="46" fill="#ffffff" opacity=".18"/>
+            <circle cx="70" cy="300" r="60" fill="#ffffff" opacity=".12"/>
+            <!-- laptop -->
+            <rect x="120" y="90" width="240" height="150" rx="10" fill="#0b2a5b"/>
+            <rect x="132" y="102" width="216" height="126" rx="4" fill="#e8f6ff"/>
+            <path d="M104 244h272l-20 22H124z" fill="#dff1fb"/>
+            <text x="150" y="150" font-family="monospace" font-size="38" font-weight="700" fill="#1565c0">&lt;/&gt;</text>
+            <rect x="150" y="170" width="120" height="8" rx="4" fill="#4fc3f7"/>
+            <rect x="150" y="188" width="170" height="8" rx="4" fill="#90caf9"/>
+            <rect x="150" y="206" width="90" height="8" rx="4" fill="#4fc3f7"/>
+            <!-- estudiantes -->
+            <circle cx="90" cy="236" r="20" fill="#ffd9b8"/>
+            <path d="M60 330c0-30 12-52 30-52s30 22 30 52z" fill="#0b2a5b"/>
+            <circle cx="390" cy="236" r="20" fill="#f1c9a0"/>
+            <path d="M360 330c0-30 12-52 30-52s30 22 30 52z" fill="#1565c0"/>
+            <!-- birrete -->
+            <path d="M390 200 360 213l30 13 30-13z" fill="#0b2a5b"/>
+            <path d="M375 221v11c0 4 30 4 30 0v-11" fill="#0b2a5b"/>
+            <!-- red -->
+            <g stroke="#ffffff" stroke-width="2" opacity=".8">
+              <path d="M240 60 300 40M300 40 350 70M240 60 190 45"/>
+            </g>
+            <g fill="#ffffff"><circle cx="240" cy="60" r="6"/><circle cx="300" cy="40" r="6"/><circle cx="350" cy="70" r="6"/><circle cx="190" cy="45" r="6"/></g>
+          </svg>
+          <figcaption>Ilustración referencial de formación tecnológica</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== NOSOTROS ===== -->
+    <section id="nosotros" class="about">
+      <div class="container">
+        <h2>Nosotros</h2>
+        <div class="about-grid">
+          <article class="about-item">
+            <h3>Formación profesional</h3>
+            <p>Programas pensados para que cada estudiante construya una carrera sólida en el ámbito tecnológico.</p>
+          </article>
+          <article class="about-item">
+            <h3>Competencias tecnológicas</h3>
+            <p>Aprendizaje práctico con herramientas digitales actuales y enfoque en resolver problemas reales.</p>
+          </article>
+          <article class="about-item">
+            <h3>Mundo laboral</h3>
+            <p>Preparación para incorporarse con confianza a equipos de trabajo y a nuevos retos profesionales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CURSOS ===== -->
+    <section id="cursos" class="courses">
+      <div class="container">
+ <img src="img/1.jpg">
+        <h2>Nuestros cursos</h2>
+        <p class="section-note">Programas de ejemplo con fines demostrativos; no representan la oferta académica oficial.</p>
+
+        <div class="cards">
+
+          <article class="card">
+            <div class="card-visual" role="img" aria-label="Ícono de código de programación sobre fondo azul">
+              <svg viewBox="0 0 120 80" aria-hidden="true"><rect x="10" y="8" width="100" height="64" rx="8" fill="#0b2a5b"/><path d="m42 28-14 12 14 12M78 28l14 12-14 12" fill="none" stroke="#4fc3f7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="m66 24-12 32" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="card-body">
+ <img src="img/3.jpg">
+              <h3>Desarrollo de Software</h3>
+              <p>Aprende a diseñar, programar y probar aplicaciones web y de escritorio.</p>
+              <button class="btn btn-primary btn-more" type="button" aria-expanded="false" aria-controls="info-1">Más información</button>
+              <p id="info-1" class="more-info" hidden>Ejemplo: lógica de programación, bases de datos, desarrollo web y trabajo con control de versiones.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-visual" role="img" aria-label="Ícono de servidores conectados en red sobre fondo azul">
+              <svg viewBox="0 0 120 80" aria-hidden="true"><rect x="38" y="6" width="44" height="16" rx="4" fill="#0b2a5b"/><rect x="6" y="56" width="44" height="16" rx="4" fill="#0b2a5b"/><rect x="70" y="56" width="44" height="16" rx="4" fill="#0b2a5b"/><path d="M60 22v16M28 56V38h64v18" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><circle cx="46" cy="14" r="3" fill="#4fc3f7"/><circle cx="14" cy="64" r="3" fill="#4fc3f7"/><circle cx="78" cy="64" r="3" fill="#4fc3f7"/></svg>
+            </div>
+            <div class="card-body">
+ <img src="img/4.jpg">
+              <h3>Administración de Sistemas y Redes</h3>
+              <p>Gestiona servidores, redes y seguridad básica en entornos institucionales.</p>
+              <button class="btn btn-primary btn-more" type="button" aria-expanded="false" aria-controls="info-2">Más información</button>
+              <p id="info-2" class="more-info" hidden>Ejemplo: configuración de redes, sistemas operativos, mantenimiento de equipos y seguridad informática.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-visual" role="img" aria-label="Ícono de documento y hoja de cálculo sobre fondo azul">
+              <svg viewBox="0 0 120 80" aria-hidden="true"><rect x="22" y="6" width="50" height="68" rx="6" fill="#fff"/><rect x="48" y="20" width="56" height="52" rx="6" fill="#0b2a5b"/><path d="M58 34h36M58 46h36M58 58h36M72 30v38" stroke="#4fc3f7" stroke-width="3"/><path d="M32 22h30M32 32h30M32 42h20" stroke="#1565c0" stroke-width="4" stroke-linecap="round"/></svg>
+            </div>
+            <div class="card-body">
+ <img src="img/5.jpg">
+              <h3>Ofimática y Herramientas Digitales</h3>
+              <p>Domina documentos, hojas de cálculo y herramientas de trabajo colaborativo.</p>
+              <button class="btn btn-primary btn-more" type="button" aria-expanded="false" aria-controls="info-3">Más información</button>
+              <p id="info-3" class="more-info" hidden>Ejemplo: procesadores de texto, hojas de cálculo, presentaciones y plataformas en la nube.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Instituto Superior Tecnológico BRASIL</p>
+      <p>&copy; <span id="anio">2026</span> Instituto Superior Tecnológico BRASIL. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
